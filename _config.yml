@@ -130,7 +130,7 @@ content:
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
-        quote: >
+        description: >
           <div style="text-align:center;">
             Activities and societies: Data Science Club - President, Programming Team
           </div>
@@ -139,7 +139,7 @@ content:
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
-        quote: >
+        description: >
           <div style="text-align:center;">
             Interests in Metaphysics, Epistemology, and Personal Identity.
           </div>
