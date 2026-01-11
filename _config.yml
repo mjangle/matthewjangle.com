@@ -1,5 +1,5 @@
 # Site
-repository: mjangle/matthewjangle.com
+#repository: mjangle/matthewjangle.com
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,6 @@ version: 2
 name: Matthew Angle
 title: Software Engineer | Automation, IIoT, Test Systems, Data Engineering
 email: matthew@matthewjangle.com
-website: https://github.com/mjangle
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -131,15 +130,13 @@ content:
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
-        description: |
-          Activities and societies: Data Science Club - President, Programming Team
+        description: "Activities and societies: Data Science Club - President, Programming Team"
         
       - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
-        description: |
-          Interests in Metaphysics, Epistemology, and Personal Identity.
+        description: Interests in Metaphysics, Epistemology, and Personal Identity.
           
   - title: A Little More About Me
     layout: text
