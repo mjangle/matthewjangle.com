@@ -1,8 +1,5 @@
 # Site
-#repository: mjangle/matthewjangle.com
-sass:
-  sass_dir: _sass
-  style: compressed
+repository: mjangle/matthewjangle.com
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -133,15 +130,19 @@ content:
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
-        description: |
-             Activities and societies: Data Science Club - President, Programming Team
+        quote: >
+          <div style="text-align:center;">
+            Activities and societies: Data Science Club - President, Programming Team
+          </div>
         
       - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
-        description: |
-             Interests in Metaphysics, Epistemology, and Personal Identity.
+        quote: >
+          <div style="text-align:center;">
+            Interests in Metaphysics, Epistemology, and Personal Identity.
+          </div>
           
   - title: A Little More About Me
     layout: text
