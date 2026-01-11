@@ -131,7 +131,7 @@ content:
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
         description: >
-          <div style="text-align:center;">
+          <div style="text-align:center; font-size:1.2em;">
             Activities and societies: Data Science Club - President, Programming Team
           </div>
         
@@ -140,7 +140,7 @@ content:
         caption: Bachelor of Arts
         sub_title: Philosophy
         description: >
-          <div style="text-align:center;">
+          <div style="text-align:center; font-size:1.2em;">
             Interests in Metaphysics, Epistemology, and Personal Identity.
           </div>
           
