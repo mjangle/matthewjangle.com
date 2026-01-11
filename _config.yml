@@ -1,5 +1,8 @@
 # Site
 #repository: mjangle/matthewjangle.com
+sass:
+  sass_dir: _sass
+  style: compressed
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -131,18 +134,14 @@ content:
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
         description: |
-          <p align="center">
-             "Activities and societies: Data Science Club - President, Programming Team"
-          </p>
+             Activities and societies: Data Science Club - President, Programming Team
         
       - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
         description: |
-          <p align="center">
              Interests in Metaphysics, Epistemology, and Personal Identity.
-          </p>
           
   - title: A Little More About Me
     layout: text
