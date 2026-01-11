@@ -79,19 +79,6 @@ content:
 
           Tools: <mark>C#</mark> <mark>SQL</mark> <mark>Git</mark>
 
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Shippensburg University
-        caption: Bachelor of Science
-        sub_title: "Software Engineering (Minor: Data Science)"
-        
-      - layout: left
-        title: Temple University
-        caption: Bachelor of Arts
-        sub_title: Philosophy
-
   - title: Professional and Personal Projects
     layout: list
     content:
@@ -136,8 +123,20 @@ content:
           Skills used: <mark>Arduino</mark> <mark>State logic</mark>
         link: https://www.youtube.com/watch?v=Zlgxc9JPat8
         link_text: Watch Video
-          
 
+  - title: Education
+    layout: list
+    content:
+      - layout: center
+        title: Shippensburg University
+        caption: Bachelor of Science
+        sub_title: "Software Engineering (Minor: Data Science)"
+        
+      - layout: center
+        title: Temple University
+        caption: Bachelor of Arts
+        sub_title: Philosophy
+          
   - title: A Little More About Me
     layout: text
     content: | 
