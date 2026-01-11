@@ -12,7 +12,7 @@ email: matthew@matthewjangle.com
 website: https://github.com/mjangle
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username: mjangle
@@ -83,7 +83,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Fleet and Test Data Tooling
+        title: Alpha Truck Test Data Tooling
         # link: https://github.com/mjangle/your-project
         # link_text: Project Repo
         quote: >
@@ -91,7 +91,7 @@ content:
         description: |
           Built internal tooling to transform raw test recordings into analysis-friendly formats. Focused on repeatable processing, validation, and making results easier to share across engineering groups.
 
-          Skills used: <mark>Python</mark> <mark>SQL</mark> <mark>Data quality</mark> <mark>Automation</mark>
+          Skills used: <mark>Python</mark> <mark>SQL</mark> <mark>Data quality</mark> <mark>Vision</mark>
 
       - layout: top-middle
         title: Industrial IIoT Data Pipeline
@@ -131,11 +131,15 @@ content:
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
+        description: |
+          Activities and societies: Data Science Club - President, Programming Team
         
       - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
+        description: |
+          Interests in Metaphysics, Epistemology, and Personal Identity.
           
   - title: A Little More About Me
     layout: text
