@@ -31,7 +31,7 @@ additional_links:
 
 # About Section
 about_profile_image: images/100B3FFC-4A68-476E-A05F-DD285C456578_1_105_c.jpeg
-about_content: | # new lines allow paragraphs
+about_content: |
   I am a software engineer who works on systems that connect software to real machines.
 
   My background is in automotive and manufacturing environments, where I have built automation, data acquisition, and analysis tools used in test cells, labs, and factory settings. Much of my work focuses on making complex physical systems easier to understand through reliable software and data.
@@ -39,52 +39,6 @@ about_content: | # new lines allow paragraphs
   I am most interested in roles where software supports engineering work directly. That includes test systems, control-adjacent software, industrial IoT, and data-heavy R&D tools in automotive, manufacturing, and aerospace environments.
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: Fleet and Test Data Tooling
-        # link: https://github.com/mjangle/your-project
-        # link_text: Project Repo
-        quote: >
-          Practical tooling that turns raw test recordings into usable datasets.
-        description: |
-          Built internal tooling to transform raw test recordings into analysis-friendly formats, with checks that help teams trust the data. Focused on repeatable processing, validation, and making results easier to share across engineering groups.
-
-          Skills used: <mark>Python</mark> <mark>SQL</mark> <mark>Data quality</mark> <mark>Automation</mark>
-
-      - layout: top-middle
-        title: Industrial IIoT Data Pipeline
-        quote: >
-          Industrial data collection and processing for manufacturing equipment.
-        description: |
-          Worked on industrial data acquisition and processing workflows used to collect machine signals and production data. Supported dashboards and analysis used by engineers and customers to understand machine behavior over time.
-
-          Skills used: <mark>IIoT</mark> <mark>OPC-UA</mark> <mark>MQTT</mark> <mark>Linux</mark> <mark>Time-series data</mark>
-
-      - layout: top-middle
-        title: DoltHub Presidential Election Data Bounty
-        quote: >
-          Ranked 3rd overall contributor and received a $2,355 award.
-        description: |
-          Collected and standardized election datasets from public sources, transformed them into consistent schemas, and contributed to a version-controlled database.
-
-          Skills used: <mark>Python</mark> <mark>Data cleaning</mark> <mark>ETL</mark>
-        link: https://www.dolthub.com/repositories/dolthub/us-president-precinct-results
-        link_text: View Repository
-
-      - layout: top-middle
-        title: Jairus of All - Assassin's Creed Hidden Blade Code
-        quote: >
-          Small embedded control work focused on reliability and simple state logic.
-        description: |
-          Assisted writing code used to control Blade in extended and retracted states for an Assassin's Creed Hidden Blade replica for the Youtube Creator Jairus of All. Featured video received 200,000 views.
-
-          Skills used: <mark>Arduino</mark> <mark>State logic</mark>
-        link: https://www.youtube.com/watch?v=Zlgxc9JPat8
-        link_text: Watch Video
-          
-
   - title: Experience
     layout: list
     content:
@@ -138,11 +92,56 @@ content:
         caption: Bachelor of Arts
         sub_title: Philosophy
 
+  - title: Professional and Personal Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Fleet and Test Data Tooling
+        # link: https://github.com/mjangle/your-project
+        # link_text: Project Repo
+        quote: >
+          Practical tooling that turns raw test recordings into usable datasets.
+        description: |
+          Built internal tooling to transform raw test recordings into analysis-friendly formats. Focused on repeatable processing, validation, and making results easier to share across engineering groups.
+
+          Skills used: <mark>Python</mark> <mark>SQL</mark> <mark>Data quality</mark> <mark>Automation</mark>
+
+      - layout: top-middle
+        title: Industrial IIoT Data Pipeline
+        quote: >
+          Industrial data collection and processing for manufacturing equipment.
+        description: |
+          Worked on industrial data acquisition and processing workflows used to collect machine signals and production data. Supported dashboards and analysis used by engineers and customers to understand machine behavior over time.
+
+          Skills used: <mark>IIoT</mark> <mark>OPC-UA</mark> <mark>MQTT</mark> <mark>Linux</mark> <mark>Time-series data</mark>
+
+      - layout: top-middle
+        title: DoltHub Presidential Election Data Bounty
+        quote: >
+          Ranked 3rd overall contributor and received a $2,355 award.
+        description: |
+          Collected and standardized election datasets from public sources, transformed them into consistent schemas, and contributed to a version-controlled database.
+
+          Skills used: <mark>Python</mark> <mark>Data cleaning</mark> <mark>ETL</mark>
+        link: https://www.dolthub.com/repositories/dolthub/us-president-precinct-results
+        link_text: View Repository
+
+      - layout: top-middle
+        title: Jairus of All - Assassin's Creed Hidden Blade Code
+        quote: >
+          Small embedded control work focused on reliability and simple state logic.
+        description: |
+          Assisted writing code used to control Blade in extended and retracted states for an Assassin's Creed Hidden Blade replica for the Youtube Creator Jairus of All. Featured video received 200,000 views.
+
+          Skills used: <mark>Arduino</mark> <mark>State logic</mark>
+        link: https://www.youtube.com/watch?v=Zlgxc9JPat8
+        link_text: Watch Video
+          
 
   - title: A Little More About Me
     layout: text
     content: | 
-      Outside of work I like working with projects I find interesting, making pizza, and mountain biking.
+      Outside of work I like working on projects, making pizza, and mountain biking.
 
       Interests:
       - Software Defined Radio (SDR)
