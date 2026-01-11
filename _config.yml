@@ -130,13 +130,15 @@ content:
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
-        description: "Activities and societies: Data Science Club - President, Programming Team"
+        description: >
+          "Activities and societies: Data Science Club - President, Programming Team"
         
       - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
-        description: Interests in Metaphysics, Epistemology, and Personal Identity.
+        description: >
+          Interests in Metaphysics, Epistemology, and Personal Identity.
           
   - title: A Little More About Me
     layout: text
