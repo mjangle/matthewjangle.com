@@ -127,12 +127,12 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: center
+      - layout: top-middle
         title: Shippensburg University
         caption: Bachelor of Science
         sub_title: "Software Engineering (Minor: Data Science)"
         
-      - layout: center
+      - layout: top-middle
         title: Temple University
         caption: Bachelor of Arts
         sub_title: Philosophy
