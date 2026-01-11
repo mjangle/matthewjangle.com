@@ -12,7 +12,7 @@ email: matthew@matthewjangle.com
 website: https://github.com/mjangle
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username: mjangle
@@ -24,7 +24,7 @@ linkedin_username: matthewangle
 additional_links:
   - title: Resume (PDF)
     icon: fas fa-file-pdf
-    url: assets/resume.pdf
+    url: https://raw.githubusercontent.com/mjangle/matthewjangle.com/main/assets/Matthew_Angle_Resume.pdf
   # - title: Portfolio
   #   icon: fas fa-globe
   #   url: https://yourdomain.com
@@ -70,15 +70,20 @@ content:
           Collected and standardized election datasets from public sources, transformed them into consistent schemas, and contributed to a version-controlled database.
 
           Skills used: <mark>Python</mark> <mark>Data cleaning</mark> <mark>ETL</mark>
+        link: https://www.dolthub.com/repositories/dolthub/us-president-precinct-results
+        link_text: View Repository
 
       - layout: top-middle
-        title: Embedded Control Project (Arduino)
+        title: Jairus of All - Assassin's Creed Hidden Blade Code
         quote: >
           Small embedded control work focused on reliability and simple state logic.
         description: |
-          Assisted with embedded control code for a mechanical system, emphasizing stable behavior and repeatable actuation.
+          Assisted writing code used to control Blade in extended and retracted states for an Assassin's Creed Hidden Blade replica for the Youtube Creator Jairus of All. Featured video received 200,000 views.
 
           Skills used: <mark>Arduino</mark> <mark>State logic</mark>
+        link: https://www.youtube.com/watch?v=Zlgxc9JPat8
+        link_text: Watch Video
+          
 
   - title: Experience
     layout: list
@@ -136,7 +141,7 @@ content:
 
   - title: A Little More About Me
     layout: text
-    content: | # new lines allow paragraphs
+    content: | 
       Outside of work I like working with projects I find interesting, making pizza, and mountain biking.
 
       Interests:
