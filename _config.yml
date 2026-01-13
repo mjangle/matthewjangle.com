@@ -41,7 +41,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Volvo Group Truck Technology
         sub_title: Experienced Automation Engineer
         caption: March 2024 - January 2026
@@ -61,7 +61,7 @@ content:
 
           Tools: <mark>Python</mark> <mark>C#</mark> <mark>SQL</mark> <mark>Linux</mark> <mark>Git</mark> <mark>CAN</mark>
 
-      - layout: left
+      - layout: top-middle
         title: Fives Grinding Ultra Precision
         sub_title: Software Innovation Engineer
         caption: January 2023 - March 2024
@@ -80,7 +80,7 @@ content:
 
           Tools: <mark>Python</mark> <mark>C#</mark> <mark>PostgreSQL</mark> <mark>Linux</mark> <mark>Grafana</mark> <mark>OPC-UA</mark> <mark>MQTT</mark> <mark>AWS</mark> <mark>telegraf</mark>
 
-      - layout: left
+      - layout: top-middle
         title: Fives Landis Corp
         sub_title: Software Engineer
         caption: June 2021 - January 2023
@@ -92,7 +92,7 @@ content:
           Built data analysis and log processing applications that converted machine logs into actionable insights for process improvement and troubleshooting.
 
           Created internal applications integrating SQL databases with ERP data for capacity planning and manufacturing support.
-          
+
           Tools: <mark>C#</mark> <mark>SQL</mark> <mark>Git</mark>
 
   - title: Professional and Personal Projects
