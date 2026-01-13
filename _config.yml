@@ -48,9 +48,16 @@ content:
         quote: >
           Engine test automation and data systems supporting R&D and certification work.
         description: |
-          Work on Morphee-based engine test cell automation for R&D and regulatory certification testing. Build and maintain automation logic, integrate instrumentation and data acquisition hardware, and support test execution and troubleshooting.
+          Worked on Morphee-based engine test cell automation systems supporting R&D, performance and regulatory certification testing. Designed and validate automated test sequences, integrate instrumentation and data acquisition hardware, and support engineers during test execution and troubleshooting in compliance-driven environments.
 
-          Built tooling that improves how raw test data is processed and made available for engineering analysis, with a focus on repeatability and data integrity.
+          Designed and implemented an application to convert .rec files into Parquet format for ingestion into Volvo’s global data pipeline. Built a background service to monitor incoming test data and automate transformation and validation so results are available quickly to engineering and analytics teams.
+          Maintained and extended internal lab support software, including legacy ASP.NET applications backed by Entity Framework and SQL Server. Added functionality, fixed defects, and kept internal tools operational for engineers running daily tests.
+
+          Implemented new CAN FD architecture within the engine test cell automation system to support next-generation powertrain platforms, including 2030 model-year engines and future autonomous vehicle programs. Allowed for future engine certification and performance testing.
+
+          Designed and implemented the automation sequence for our Performance test cells EPA 2027 OBD Aging certification test. Ensured test repeatability, data integrity, and alignment with certification requirements.
+
+          Led integration of a new FTIR emissions analyzer into the automation environment, including commissioning a portable PEMS FTIR bench within an engine test cell. Work included hardware integration, signal validation, and software support to ensure reliable data capture during testing. Allowed for expanding lab capability in a resource constrained environment.
 
           Tools: <mark>Python</mark> <mark>C#</mark> <mark>SQL</mark> <mark>Linux</mark> <mark>Git</mark> <mark>CAN</mark>
 
@@ -61,11 +68,17 @@ content:
         quote: >
           Industrial data engineering and IIoT tooling for manufacturing systems.
         description: |
-          Technical lead on data collection and processing work for manufacturing equipment. Supported ingestion, storage, dashboards, and analysis used to understand machine behavior and performance trends.
+          Led data engineering initiatives to collect, process, and store industrial IoT data from advanced manufacturing equipment, enabling real-time monitoring of quality, yield, and equipment availability.
 
-          Collaborated with engineers and stakeholders to validate data feeds and adjust mappings to reflect real-world system behavior.
+          Integrated factory equipment using OPC-UA, and MQTT, architecting data pipelines that streamed machine signals and event data to PostgreSQL databases and cloud platforms.
 
-          Tools: <mark>Python</mark> <mark>C#</mark> <mark>PostgreSQL</mark> <mark>Linux</mark> <mark>Grafana</mark> <mark>OPC-UA</mark> <mark>MQTT</mark>
+          Implemented dashboards and time-series visualizations with Grafana to help engineers and customers understand machine behavior and performance trends.
+
+          Collaborated with data scientists and manufacturing engineers to analyze relationships between machine signals and metrology data, implementing robust data acquisition strategies and supporting data processing and analysis.
+
+          Participated in cloud infrastructure planning (AWS/Azure), addressing security, scalability, and redundancy requirements for IIoT data flows.
+
+          Tools: <mark>Python</mark> <mark>C#</mark> <mark>PostgreSQL</mark> <mark>Linux</mark> <mark>Grafana</mark> <mark>OPC-UA</mark> <mark>MQTT</mark> <mark>AWS</mark> <mark>telegraf</mark>
 
       - layout: left
         title: Fives Landis Corp
@@ -74,8 +87,12 @@ content:
         quote: >
           Engineering software for simulation, analysis, and manufacturing support.
         description: |
-          Developed C# applications supporting simulation, log parsing, and engineering analysis workflows. Built tools that helped engineers investigate system behavior across operating cycles and improve process understanding.
+          Developed simulation and analysis tools in C# and Python to help engineers understand system behavior across repeated cycles and optimize process parameters.
 
+          Built data analysis and log processing applications that converted machine logs into actionable insights for process improvement and troubleshooting.
+
+          Created internal applications integrating SQL databases with ERP data for capacity planning and manufacturing support.
+          
           Tools: <mark>C#</mark> <mark>SQL</mark> <mark>Git</mark>
 
   - title: Professional and Personal Projects
